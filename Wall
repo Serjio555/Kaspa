@@ -1,0 +1,5 @@
+Declare private state variables to store employee data
+    uint16 private shares; // Number of shares owned by the employee (private to contract)
+    uint32 private salary; // Monthly salary of the employee (private to contract)
+    uint256 public idNumber; // Unique identification number of the employee (publicly accessible)
+    string public name; // Name of the employee (publicly accessible)
